@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    background-image: url('weeb.jpg');
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.task-list {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+label {
+    color: #333;
+    font-size: 18px;
+}
+
+label::before {
+    content: "✓";
+    margin-right: 5px;
+    color: #00aa00;
+    visibility: hidden;
+}
+
+input[type="checkbox"]:checked + label::before {
+    visibility: visible;
+}
+
+h1{
+
+    color: ghostwhite;
+    ;
+}
